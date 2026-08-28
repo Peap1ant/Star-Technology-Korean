@@ -81,7 +81,7 @@
 
     "block.gtceu.mechanical_sieve.tooltip.0": "§7원시적인 기계로 당신을 위해 자동으로 자원을 수집합니다. 아무 부작용 없이 전기로 대량의 자원을 생산합니다.",
 
-    "block.gtceu.void_excavator.tooltip.0": "§7공허 추출기의 다음 단계로 비병렬 처리로 자원을 채굴합니다.",
+    "block.gtceu.void_excavator.tooltip.0": "§7공허 추출기의 다음 단계로, 엄청난 속도로 심연에서 자원을 수집합니다.",
 
     "block.gtceu.void_extractor.tooltip.0": "§7당신 발밑의 공허에서 자원을 추출하는 멀티블록입니다. 어디에서 왔는진 모르지만, 이런 질문을 할 시간이 없습니다.",
     "block.gtceu.void_extractor.tooltip.1": "",
@@ -131,11 +131,11 @@
 
     "block.gtceu.large_rock_crusher.tooltip.0": "§7돌 생산기의 대형 변형으로, 좋은 전력 효율로 돌을 만들 수 있습니다.",
 
-    "material.gtceu.soul_infused": "영혼 주입",
+    "material.gtceu.soul_infused": "영혼 주입 합금",
     "material.gtceu.signalum": "시그널륨",
     "material.gtceu.lumium": "루미움",
     "material.gtceu.enderium": "엔더리움",
-    "material.gtceu.shellite": "셸라이트",
+    "material.gtceu.shellite": "쉘라이트",
     "material.gtceu.twinite": "트위나이트",
     "material.gtceu.dragonsteel": "드래곤스틸",
     "material.gtceu.prismalium": "프리즈말리움",
@@ -1045,8 +1045,8 @@
     "material.gtceu.gold_skystone_alloy": "금 천령석 합금",
     "material.gtceu.diamond_skystone_alloy": "다이아몬드 천령석 합금",
     "material.gtceu.certus_quartz_skystone_alloy": "서투스 석영 천령석 합금",
-    "material.gtceu.fluix": "플럭스",
-    "material.gtceu.fluix_steel": "플럭스 강철",
+    "material.gtceu.fluix": "플루익스",
+    "material.gtceu.fluix_steel": "플루익스 강철",
     "material.gtceu.netherite_gold_skystone_alloy": "네더라이트 금 천령석 합금",
     "material.gtceu.netherite_certus_quartz_skystone_alloy": "네더라이트 서투스 석영 천령석 합금",
 

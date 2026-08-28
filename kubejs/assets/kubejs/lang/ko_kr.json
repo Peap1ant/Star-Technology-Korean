@@ -750,7 +750,7 @@
 
     "block.kubejs.signalum_casing": "초고열 고압 저항 시그널륨 케이싱",
     "block.kubejs.enderium_casing": "열 변동 제한 엔더리움 케이싱",
-    "block.kubejs.shellite_casing": "초저항 셸라이트 케이싱",
+    "block.kubejs.shellite_casing": "초저항 쉘라이트 케이싱",
     "block.kubejs.twinite_casing": "접힘 저항 트위나이트 케이싱",
     "block.kubejs.dragonsteel_casing": "접을 수 없는 드래곤스틸 케이싱",
     "block.kubejs.prismalium_casing": "운송용 프리즈말리움 케이싱",
@@ -846,7 +846,7 @@
     "block.kubejs.soul_of_the_flame": "불꽅의 영혼",
     "block.kubejs.primordial_ware_casing": "원시적인 웨어 케이싱",
     "block.kubejs.primordial_assembly_grating": "원시적인 조립 창살",
-    "block.kubejs.soul_infused_casing": "영혼 주입 케이싱",
+    "block.kubejs.soul_infused_casing": "영혼 주입 합금 케이싱",
     "block.kubejs.lumium_casing": "루미움 케이싱",
     "block.kubejs.ionic_engraving_casing": "이온성 각인 케이싱",
     "block.kubejs.advanced_assembly_casing": "고급 조립 케이싱",

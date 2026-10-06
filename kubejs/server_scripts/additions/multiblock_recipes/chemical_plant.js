@@ -12,9 +12,25 @@ ServerEvents.recipes((event) => {
         .EUtVHA(IV);
 
     event.recipes.gtceu // +5% on original platline for Ru, Rh, Os and Ir
-        .chemical_skip(id('plat_line_skip'))
+        .chemical_skip(id('plat_line_skip_from_ore'))
         .itemInputs('30x gtceu:purified_cooperite_ore')
         .inputFluids('gtceu:aqua_regia 24000')
+        .itemOutputs(
+            '20x gtceu:platinum_dust',
+            '12x gtceu:palladium_dust',
+            '7x gtceu:ruthenium_dust',
+            '7x gtceu:rhodium_dust',
+            '3x gtceu:osmium_dust',
+            '3x gtceu:iridium_dust'
+        )
+        .outputFluids('gtceu:nitric_acid 8000', 'gtceu:hydrochloric_acid 16000')
+        .duration(485)
+        .EUtVHA(ZPM);
+
+    event.recipes.gtceu // +5% on original platline for Ru, Rh, Os and Ir
+        .chemical_skip(id('plat_line_skip_from_pgs'))
+        .itemInputs('120x gtceu:platinum_group_sludge_dust')
+        .inputFluids('gtceu:aqua_regia 20000')
         .itemOutputs(
             '20x gtceu:platinum_dust',
             '12x gtceu:palladium_dust',
@@ -178,16 +194,16 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu
         .chemical_skip(id('zapolgium_skip'))
-        .itemInputs('70x gtceu:zapolite_dust', '60x gtceu:potassium_hydroxide_dust')
-        .inputFluids('gtceu:hydrogen 18000', 'gtceu:hydrochloric_acid 20000')
+        .itemInputs('450x gtceu:zapolite_dust', '516x gtceu:potassium_hydroxide_dust')
+        .inputFluids('gtceu:hydrogen 72000', 'gtceu:hydrochloric_acid 172000')
         .itemOutputs(
-            '10x gtceu:zapolgium_dust',
-            '5x gtceu:bauxite_dust',
-            '20x gtceu:iodine_dust',
-            '40x gtceu:rock_salt_dust'
+            '86x gtceu:zapolgium_dust',
+            '250x gtceu:bauxite_dust',
+            '172x gtceu:iodine_dust',
+            '344x gtceu:rock_salt_dust'
         )
-        .outputFluids('minecraft:water 29000', 'gtceu:oxygen 21000')
-        .duration(66)
+        .outputFluids('minecraft:water 122000', 'gtceu:oxygen 86000')
+        .duration(500)
         .EUtVHA(UIV);
 
     event.recipes.gtceu

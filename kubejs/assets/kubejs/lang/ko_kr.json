@@ -13,13 +13,26 @@
     "effects.sand_erosion.message": "§e아비도스의 모래가 당신을 침식합니다...",
     "effects.uranium_fever.message": "§a방사능 중독§f이 당신을 고통스럽게 만듭니다...",
 
-    "effects.crystals.success.abydos": "메아리치는 좌표의 수정을 소모하자 당신은 수상한 속삭임을 들었으며, 당신의 눈 앞에 모래로 덮힌 유적과 먼지로 잃어버린 세계가 펼쳐집니다... 당신은 어떤 숫자를 떠올렸습니다.",
-    "effects.crystals.success.nether": "메아리치는 좌표의 수정을 소모하자 당신은 수상한 속삭임을 들었으며, 당신의 눈 앞에 불과 파멸, 그리고 지옥의 환경이  펼쳐집니다... 당신은 어떤 숫자를 떠올렸습니다.",
-    "effects.crystals.success.end": "메아리치는 좌표의 수정을 소모하자 당신은 수상한 속삭임을 들었으며, 당신의 눈 앞에 희미한 심연과 어느 밤보다 어두운 어둠이 펼쳐집니다... 당신은 어떤 숫자를 떠올렸습니다.",
+    "effects.crystals.success": "§8좌표의 수정§7에서 나오는 메아리를 사용하자마자 어떤 목소리가 속삭이면서 당신의 눈 뒤에서 수상한 숫자들이 보입니다. ",
+    "effects.crystals.success.abydos": "§7또한 당신의 눈 앞에 §es모래로 덮힌 유적과 먼지로 잃어버린 세계§7가 펼쳐집니다...",
+    "effects.crystals.success.nether": "§7또한 당신의 눈 앞에 §4불과 파멸, 그리고 지옥의 환경§7이 펼쳐집니다... ",
+    "effects.crystals.success.end": "§7또한 당신의 눈 앞에 §5희미한 심연과 어느 밤보다 어두운 어둠§7이 펼쳐집니다...",
     "effects.crystals.failure.start": "§k문의 제작자§r가 아직 당신에게 흥미를 느끼지 못합니다... 기다리세요",
     "effects.crystals.failure.nether": "§4불지옥§r이 아직 준비되지 않았습니다.",
     "effects.crystals.failure.end": "§5메아리치는 심연§r이 아직 준비되지 않았습니다.",
     "effects.crystals.failure.punish": "당신의 기억에 혼란이 생겼습니다!",
+    "effects.crystals.gate.abydos": "§e척박한 모래§7와 연결된 느낌이 듭니다.",
+    "effects.crystals.gate.nether": "§4지옥같은 불§7과 연결된 느낌이 듭니다.",
+    "effects.crystals.gate.end": "§5끝없는 심연의 공허§7와 연결된 느낌이 듭니다.",
+
+    "effects.dimensions.title.abydos": "고대의 사막에 대한 이해력이 부족합니다.",
+    "effects.dimensions.subtitle.abydos": "아비도스의 주소가 새겨진 수정을 사용해 이 구역에 진입하세요.",
+    "effects.dimensions.title.nether": "불타는 지옥에 대한 이해력이 부족합니다.",
+    "effects.dimensions.subtitle.nether": "지옥의 주소가 새겨진 수정을 사용해 이 구역에 진입하세요.",
+    "effects.dimensions.title.end": "드라코닉 공허 대한 이해력이 부족합니다.",
+    "effects.dimensions.subtitle.end": "엔드의 주소가 새겨진 수정을 사용해 이 구역에 진입하세요.",
+    "effects.dimensions.title.inaccesible": "아직 미구현된 콘텐츠입니다.",
+    "effects.dimensions.subtitle.inaccesible": "애초에 이걸 어떻게 하고 있죠?",
 
     "effect.kubejs.reach": "범위 증가",
 
@@ -74,7 +87,7 @@
     "item.kubejs.mv_mci_kit.tooltip": "§7발전기를 위한 확장",
     "item.kubejs.hv_mci_kit": "§6HV§r 멀티 사이클 주입기 확장",
     "item.kubejs.hv_mci_kit.tooltip": "§7발전기를 위한 확장",
-    "item.kubejs.ev_mci_kit": "§dEV§r 멀티 사이클 주입기 확장",
+    "item.kubejs.ev_mci_kit": "§5EV§r 멀티 사이클 주입기 확장",
     "item.kubejs.ev_mci_kit.tooltip": "§7발전기를 위한 확장",
 
     "item.kubejs.ulv_fls_kit": "§8ULV§r 탱크 확장 확장",
@@ -257,10 +270,10 @@
     "item.kubejs.draco_peptide_amino_chain": "드라코 펩타이드 아미노 사슬",
     "item.kubejs.abyssal_inductor": "심연 인덕터",
     "item.kubejs.abyssal_inductor.tooltip": "§5엔드§7를 순수한 형태로 시뮬레이션합니다.",
-    "item.kubejs.helish_star": "지옥의 별",
-    "item.kubejs.helish_star.tooltip": "§7네더의 별이 집으로 돌아왔다",
-    "item.kubejs.dragonic_eye": "§5드래곤의§r 눈",
-    "item.kubejs.dragonic_eye.tooltip": "§7미래를 볼 수 있을려나?",
+    "item.kubejs.decaying_star": "부식된 별",
+    "item.kubejs.decaying_star.tooltip": "§7네더의 별이 집으로 돌아왔다",
+    "item.kubejs.draconic_eye": "§5드래곤의§r 눈",
+    "item.kubejs.draconic_eye.tooltip": "§7미래를 볼 수 있을려나?",
 
     "item.kubejs.diamond_geode": "§b다이아몬드§r 정동석",
     "item.kubejs.diamond_geode.tooltip": "§7안에 §b다이아몬드§7가 숨어있는 정동석",
@@ -337,6 +350,13 @@
     "item.kubejs.zpm_photovoltaic_cell": "태양광 셀 IV",
     "item.kubejs.uv_photovoltaic_cell": "태양광 셀 V",
     "item.kubejs.uhv_photovoltaic_cell": "태양광 셀 VI",
+    "item.kubejs.damaged_ev_photovoltaic_cell": "태양광 셀 I (손상됨)",
+    "item.kubejs.damaged_iv_photovoltaic_cell": "태양광 셀 II (손상됨)",
+    "item.kubejs.damaged_luv_photovoltaic_cell": "태양광 셀 III (손상됨)",
+    "item.kubejs.damaged_zpm_photovoltaic_cell": "태양광 셀 IV (손상됨)",
+    "item.kubejs.damaged_uv_photovoltaic_cell": "태양광 셀 V (손상됨)",
+    "item.kubejs.damaged_uhv_photovoltaic_cell": "태양광 셀 VI (손상됨)",
+    "item.kubejs.damaged_photovoltaic_cell.tooltip": "§4손상된 셀입니다! 재활용을 통해 재료를 조금 돌려 받으세요.",
 
     "item.kubejs.field_stabiliser.tooltip": "§7중력 장이 붕괴하지 않게 도와줍니다.",
     "item.kubejs.energy_modulator.tooltip": "§7게이트가 §3폭발§7하지 않게 도와줍니다..",
@@ -428,8 +448,8 @@
 
     "item.kubejs.quantum_core": "§3양자§r 코어",
     "item.kubejs.quantum_core.tooltip": "§7집중된 에너지",
-    "item.kubejs.helish_core": "§4지옥§r 코어",
-    "item.kubejs.helish_core.tooltip": "§7집중된 화염",
+    "item.kubejs.decaying_core": "§4지옥§r 코어",
+    "item.kubejs.decaying_core.tooltip": "§7집중된 화염",
     "item.kubejs.voidic_core": "§5공허§r 코어",
     "item.kubejs.voidic_core.tooltip": "§7집중된 메아리",
     "item.kubejs.draconic_core": "§2드라코닉§r 코어",
@@ -690,6 +710,8 @@
     "block.kubejs.nyanium_engine_intake_casing": "냥세인 흡기 엔진 케이싱",
     "block.kubejs.nyanium_heat_escape_casing": "냥니움 열 방출 케이싱",
 
+    "block.kubejs.stainless_steel_firebox_casing": "스테인리스 강철 화실 케이싱",
+
     "block.kubejs.laser_casing": "초고밀도 빔 집속 장치 & 에너지 방출형 스텔라리움 케이싱",
     "block.kubejs.inscribe_casing": "용골 조각 제어 시스템 & 집속 강화형 루니칼리움 케이싱",
     "block.kubejs.core_casing": "울트라 퍼퍼 파워 코어 & 드라코닉 융합 준비 케이싱",
@@ -765,8 +787,8 @@
     "item.kubejs.reinforced_neutron_reflector.tooltip": "§7순수한 중성자를 다루기 위한 재료입니다.",
     "item.kubejs.borealic_neutron_reflector": "보레알릭 중성자 반사판",
     "item.kubejs.borealic_neutron_reflector.tooltip": "§7은하 물질을 다룰 수 있기 시작합니다.",
-    "item.kubejs.dragonic_neutron_reflector": "드래곤 중성자 반사판",
-    "item.kubejs.dragonic_neutron_reflector.tooltip": "§7대부분의 플라즈마를 다룰 수 있습니다.",
+    "item.kubejs.draconic_neutron_reflector": "드래곤 중성자 반사판",
+    "item.kubejs.draconic_neutron_reflector.tooltip": "§7대부분의 플라즈마를 다룰 수 있습니다.",
     "item.kubejs.prismalic_neutron_reflector": "분광 중성자 반사판",
     "item.kubejs.prismalic_neutron_reflector.tooltip": "§7분광의 힘이 담긴 반사판입니다.",
 
@@ -775,7 +797,7 @@
     "block.kubejs.complex_reflector_casing": "복잡한 중성자 반사 케이싱",
     "block.kubejs.reinforced_reflector_casing": "보강된 중성자 반사 케이싱",
     "block.kubejs.borealic_reflector_casing": "보레알릭 중성자 반사 케이싱",
-    "block.kubejs.dragonic_reflector_casing": "드래곤 중성자 반사 케이싱",
+    "block.kubejs.draconic_reflector_casing": "드래곤 중성자 반사 케이싱",
     "block.kubejs.prismalic_reflector_casing": "분광 중성자 반사 케이싱",
 
     "item.kubejs.consume.tooltip": "§8Nom Nom?",
@@ -812,7 +834,7 @@
     "item.kubejs.depleted_etu_fuel_rod": "고갈된 ETU 연료봉",
     "item.kubejs.depleted_leu233_fuel_rod": "고갈된 LEU-233 연료봉",
     "item.kubejs.depleted_nqe_fuel_rod": "고갈된 NQE 연료봉",
-    
+
     "block.kubejs.superdense_assembly_control_casing": "초밀집 조립 조종 케이싱",
     "block.kubejs.superdense_assembly_machine_casing": "초밀집 조립 기계 케이싱",
     "block.kubejs.superdense_machine_casing": "초밀집 기계 케이싱",
@@ -887,5 +909,6 @@
     "item.kubejs.wild_riftion": "원시 쿼크",
     "item.kubejs.coordinate_crystal": "좌표 수정",
     "item.kubejs.worries_about_it": "§c걱정하지§r 말라고요 :)",
-    "item.kubejs.runic_wave_generator": "루닉 파동 생성기"
+    "item.kubejs.runic_wave_generator": "루닉 파동 생성기",
+    "item.kubejs.stainless_steel_firebox_casing": "스테인리스 강철 화실 케이싱"
 }

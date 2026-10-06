@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
 
     event.recipes.gtceu
         .centrifuge(id('debris_dust'))
-        .itemInputs('mysticalagriculture:nether_agglomeratio')
+        .itemInputs('gtceu:netherrack_dust')
         .chancedOutput('gtceu:tiny_debris_dust', 200, 500)
         .duration(20)
         .EUt(6500)
@@ -33,7 +33,7 @@ ServerEvents.recipes((event) => {
         .itemInputs('gtceu:purified_debris_dust')
         .inputFluids('gtceu:tetrachloroethylene 100')
         .itemOutputs('gtceu:pure_netherite_dust')
-        .duration(300)
+        .duration(200)
         .EUt(20450);
 
     event.recipes.gtceu
